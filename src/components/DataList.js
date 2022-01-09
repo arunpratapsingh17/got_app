@@ -27,6 +27,9 @@ const DataList = () => {
     return (
         <div className='DataList'>
             {showData()}
+            <h1>
+                {dataList.toUpperCase()} OF GOT
+            </h1>
             <DataListMenu datas={datas.data}/>
         </div>
     )
