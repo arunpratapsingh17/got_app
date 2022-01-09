@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useParams } from 'react-router';
 import "./Header.css"
-import titleImage from "/home/arun/assignments/got-app/src/assets/got_original.jpeg"
+import titleImage from "../assets/got_original.jpeg"
 const Header = ({HeaderContent}) => {
     const { dataList } = useParams();
     console.log(dataList);

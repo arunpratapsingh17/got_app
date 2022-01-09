@@ -1,10 +1,10 @@
 import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import image1 from "/home/arun/assignments/got-app/src/assets/HeroImages/image1.jpg"
-import image2 from "/home/arun/assignments/got-app/src/assets/HeroImages/image2.jpg"
-import image3 from "/home/arun/assignments/got-app/src/assets/HeroImages/image3.jpg"
-import image4 from "/home/arun/assignments/got-app/src/assets/HeroImages/image4.jpg"
-import image5 from "/home/arun/assignments/got-app/src/assets/HeroImages/image5.jpg"
+import image1 from "../assets/HeroImages/image1.jpg"
+import image2 from "../assets/HeroImages/image2.jpg"
+import image3 from "../assets/HeroImages/image3.jpg"
+import image4 from "../assets/HeroImages/image4.jpg"
+import image5 from "../assets/HeroImages/image5.jpg"
 import { Carousel } from 'react-responsive-carousel';
 import "./HomeDisplay.css"
 import Menu from './Menu';
