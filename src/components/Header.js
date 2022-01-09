@@ -10,13 +10,15 @@ const Header = ({HeaderContent}) => {
     return (
         <div className="Header">
             <div className='container'>
-                <img clasName='Title-Img' src={titleImage}/>
+                <Link to="/">
+                 <img clasName='Title-Img' src={titleImage}/>
+                </Link>
             </div>
             <div className='Links'>
                 {HeaderContent.map((item)=>{
-                    return <a href={item.link} key={item.name} className='Link'>
+                    return <Link to={item.link} key={item.name} className='Link'>
                     <h3>{item.name}</h3>
-                </a>
+                </Link>
                 })}
             </div>
         </div>

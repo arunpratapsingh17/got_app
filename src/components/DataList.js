@@ -14,7 +14,7 @@ const DataList = () => {
     }
     useEffect(()=>{
         fetchdata()
-    },[])
+    },[dataList])
     const showData = ()=>{
         
         if(datas.loading){
